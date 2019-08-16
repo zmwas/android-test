@@ -1,0 +1,176 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-beta2] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/ab1a1d0ab1705f66f8ae3e83b88d5812/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/724f204f1ae0d90d9bd9c40bf89368d0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/c0dd512cedab9f58417c028b7622bac0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/afcdbb7b1c0b143bf2e08e01725cfb7c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/b9883413068f9efd8cde0bb4c811ea76/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/8be722c06a14e14efbc5c24713d4f3fc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/4ff87fae733adc6aa77d9bf5055e6d81/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/9d889e1e7311bca315a2203885361534/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/4cd817858579cfb3a8e9902b38e66e28/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/763bd3683eb7db9b66c13df2268b36c0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/9f0e7ea52c2690ba05d3aceb4785beb1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/32e7bef647e700f22be09a6cb9cdc0ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/a482bdf7a2992b084890593cfb7e4a0c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/057006a5b4b3b155fc2aba8c1130c88f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/2f2469f5e9626efa5962fca86ab93280/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/ffed15139e034ebc9b96fc3c54c7175c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/cd17befed6308c90ba24367ba4d178b8/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/7ca9523d3358c57e4d163af06613c235/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/466c3812151ef64cca825fb303f1f434/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/dfc548518242d52180c2d5a169518560/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/f09cdc95badc4ed7327a259bb0ff7357/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/b8aed8ef21d387e36466aaf80bf0ad4d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/7bcfeac0bdd9d0bf92aaae799517bba8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/ab82e2bdc1f95f969537dc8e001e7b25/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/4f08d9179e2abe1c3e2b6ff1c43642a9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/3bace2ab6c205c117eb2fb95ee583eff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/a3754fc388062d4667c88e5551d2fb6f/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml
+		INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:5:5-23:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-beta2] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/ab1a1d0ab1705f66f8ae3e83b88d5812/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-beta2] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/ab1a1d0ab1705f66f8ae3e83b88d5812/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/ffed15139e034ebc9b96fc3c54c7175c/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/ffed15139e034ebc9b96fc3c54c7175c/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/cd17befed6308c90ba24367ba4d178b8/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/cd17befed6308c90ba24367ba4d178b8/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/ffed15139e034ebc9b96fc3c54c7175c/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:7:9-35
+	android:label
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:6:9-41
+	android:roundIcon
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:6:42-87
+	android:icon
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:5:45-79
+	android:allowBackup
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:5:18-44
+	android:theme
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:7:36-67
+activity#de.suitepad.packagelist.MainActivity
+ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:8:9-14:20
+	android:name
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:8:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:9:13-13:29
+action#android.intent.action.MAIN
+ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:10:17-69
+	android:name
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:10:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:12:17-77
+	android:name
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:12:27-74
+receiver#de.suitepad.packagelist.receivers.PackageChangedBroadcastReceiver
+ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:15:9-22:20
+	android:name
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:15:19-76
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+action:name:android.intent.action.PACKAGE_CHANGED+action:name:android.intent.action.PACKAGE_REMOVED+data:scheme:package
+ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:16:13-21:29
+data
+ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:17:17-50
+	android:scheme
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:17:23-47
+action#android.intent.action.PACKAGE_ADDED
+ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:18:17-78
+	android:name
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:18:25-75
+action#android.intent.action.PACKAGE_CHANGED
+ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:19:17-80
+	android:name
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:19:25-77
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:20:17-80
+	android:name
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml:20:25-77
+uses-sdk
+INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml
+INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-beta2] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/ab1a1d0ab1705f66f8ae3e83b88d5812/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-beta2] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/ab1a1d0ab1705f66f8ae3e83b88d5812/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/724f204f1ae0d90d9bd9c40bf89368d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/724f204f1ae0d90d9bd9c40bf89368d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/c0dd512cedab9f58417c028b7622bac0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/c0dd512cedab9f58417c028b7622bac0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/afcdbb7b1c0b143bf2e08e01725cfb7c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/afcdbb7b1c0b143bf2e08e01725cfb7c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/b9883413068f9efd8cde0bb4c811ea76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/b9883413068f9efd8cde0bb4c811ea76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/8be722c06a14e14efbc5c24713d4f3fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/8be722c06a14e14efbc5c24713d4f3fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/4ff87fae733adc6aa77d9bf5055e6d81/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/4ff87fae733adc6aa77d9bf5055e6d81/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/9d889e1e7311bca315a2203885361534/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/9d889e1e7311bca315a2203885361534/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/4cd817858579cfb3a8e9902b38e66e28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/4cd817858579cfb3a8e9902b38e66e28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/763bd3683eb7db9b66c13df2268b36c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/763bd3683eb7db9b66c13df2268b36c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/9f0e7ea52c2690ba05d3aceb4785beb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/9f0e7ea52c2690ba05d3aceb4785beb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/32e7bef647e700f22be09a6cb9cdc0ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/32e7bef647e700f22be09a6cb9cdc0ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/a482bdf7a2992b084890593cfb7e4a0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/a482bdf7a2992b084890593cfb7e4a0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/057006a5b4b3b155fc2aba8c1130c88f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/057006a5b4b3b155fc2aba8c1130c88f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/2f2469f5e9626efa5962fca86ab93280/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/2f2469f5e9626efa5962fca86ab93280/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/ffed15139e034ebc9b96fc3c54c7175c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/ffed15139e034ebc9b96fc3c54c7175c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/cd17befed6308c90ba24367ba4d178b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/cd17befed6308c90ba24367ba4d178b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/7ca9523d3358c57e4d163af06613c235/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/7ca9523d3358c57e4d163af06613c235/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/466c3812151ef64cca825fb303f1f434/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/466c3812151ef64cca825fb303f1f434/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/dfc548518242d52180c2d5a169518560/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/dfc548518242d52180c2d5a169518560/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/f09cdc95badc4ed7327a259bb0ff7357/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/f09cdc95badc4ed7327a259bb0ff7357/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/b8aed8ef21d387e36466aaf80bf0ad4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/b8aed8ef21d387e36466aaf80bf0ad4d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/7bcfeac0bdd9d0bf92aaae799517bba8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/7bcfeac0bdd9d0bf92aaae799517bba8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/ab82e2bdc1f95f969537dc8e001e7b25/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/ab82e2bdc1f95f969537dc8e001e7b25/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/4f08d9179e2abe1c3e2b6ff1c43642a9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/4f08d9179e2abe1c3e2b6ff1c43642a9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/3bace2ab6c205c117eb2fb95ee583eff/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/3bace2ab6c205c117eb2fb95ee583eff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/a3754fc388062d4667c88e5551d2fb6f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/zacharianjoroge/.gradle/caches/transforms-2/files-2.1/a3754fc388062d4667c88e5551d2fb6f/AndroidManifest.xml:20:5-44
+INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml
+INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml
+		INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml
+		ADDED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml
+		INJECTED from /Users/zacharianjoroge/20170406_android_code_review_packagelist_module/src/main/AndroidManifest.xml
