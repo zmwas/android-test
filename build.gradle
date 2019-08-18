@@ -27,7 +27,7 @@ android {
 
     }
 
-    compileSdkVersion 26
+    compileSdkVersion 28
     buildToolsVersion "28.0.3"
 
     defaultConfig {
@@ -50,6 +50,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    dataBinding {
+        enabled = true
     }
 }
 

@@ -1,19 +1,18 @@
 package de.suitepad.packagelist;
 
 import android.content.Context;
+import android.databinding.DataBindingUtil;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.List;
 
+import de.suitepad.packagelist.databinding.ListItemPackageBinding;
 import de.suitepad.packagelist.models.Pkg;
 
 class PackageListAdapter extends ArrayAdapter<Pkg> {
@@ -27,46 +26,37 @@ class PackageListAdapter extends ArrayAdapter<Pkg> {
         this.callback = callback;
     }
 
+
     @NonNull
     @Override
     public View getView(final int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        View v = convertView;
+        LayoutInflater inflater = LayoutInflater.from(getContext());
+        ListItemPackageBinding binding = DataBindingUtil.inflate(inflater, R.layout.list_item_package, null, false);
 
-        if (v == null) {
-            LayoutInflater vi;
-            vi = LayoutInflater.from(getContext());
-            v = vi.inflate(R.layout.list_item_package, null);
-        }
-        final Pkg p = getItem(position);
-        if (p != null) {
-            TextView tt1 = (TextView)v.findViewById(R.id.pkg_label);
-            tt1.setText(p.getLabel());
-            TextView tt2 = (TextView)v.findViewById(R.id.pkg_name);
-            tt2.setText(p.getName());
-            TextView tt3 = (TextView)v.findViewById(R.id.pkg_version);
-            tt3.setText(p.getVersionName());
-            Button btn1 = (Button)v.findViewById(R.id.pkg_uninstall);
-            btn1.setOnClickListener(new View.OnClickListener() {
+        final Pkg pkg = getItem(position);
+        if (pkg != null) {
+            binding.setPkg(pkg);
+            binding.pkgUninstall.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    callback.onBtn1Click(position,p,v);
+                    callback.onBtn1Click(position, pkg, v);
                 }
             });
 
-            Button btn2 = (Button)v.findViewById(R.id.pkg_launch);
-            btn2.setOnClickListener(new View.OnClickListener() {
+            binding.pkgLaunch.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    callback.onBtn2Click(position,p,v);
-
+                    callback.onBtn2Click(position, pkg, v);
                 }
             });
 
-            ImageView imageView = (ImageView)v.findViewById(R.id.pkg_icon);
+            ImageView imageView = binding.pkgIcon;
 //                imageView.setImageDrawable(p.get);
 
         }
 
-        return v;
+        return binding.getRoot();
     }
+
+
 }

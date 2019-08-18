@@ -27,11 +27,13 @@ import java.util.List;
 import de.suitepad.packagelist.models.Pkg;
 
 public class MainActivity extends AppCompatActivity implements PackageListCallback{
-
+    ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        listView = findViewById(R.id.package_list);
+
         populatePackages();
     }
 
@@ -91,12 +93,10 @@ public class MainActivity extends AppCompatActivity implements PackageListCallba
         ArrayList<Pkg> pkgList = new ArrayList<>();
         PackageListAdapter packageListAdapter = new PackageListAdapter(this, pkgList);
         packageListAdapter.setCallback(this);
-        ListView listView = (ListView) findViewById(R.id.package_list);
         listView.setAdapter(packageListAdapter);
         pkgList.clear();
         PackageManager pm = getPackageManager();
         List<PackageInfo> packages = pm.getInstalledPackages(PackageManager.GET_META_DATA);
-
         for (PackageInfo packageInfo : packages) {
             pkgList.add(new Pkg(packageInfo.packageName, packageInfo.packageName, packageInfo.versionName, packageInfo.versionCode));
         }
@@ -105,12 +105,12 @@ public class MainActivity extends AppCompatActivity implements PackageListCallba
 
     @Override
     public void onBtn1Click(int position, Pkg pkg, View view) {
-        Toast.makeText(getApplicationContext(), "Uninstalling package: " + pkg.getName(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Uninstalling package: " + pkg.getName(), Toast.LENGTH_SHORT).show();
 
     }
 
     @Override
     public void onBtn2Click(int position, Pkg pkg, View view) {
-        Toast.makeText(getApplicationContext(), "Launching package: " + pkg.getName(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Launching package: " + pkg.getName(), Toast.LENGTH_SHORT).show();
     }
 }
