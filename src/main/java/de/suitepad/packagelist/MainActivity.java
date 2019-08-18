@@ -11,6 +11,8 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,7 +29,7 @@ import java.util.List;
 import de.suitepad.packagelist.models.Pkg;
 
 public class MainActivity extends AppCompatActivity implements PackageListCallback{
-    ListView listView;
+    RecyclerView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -94,6 +96,7 @@ public class MainActivity extends AppCompatActivity implements PackageListCallba
         PackageListAdapter packageListAdapter = new PackageListAdapter(this, pkgList);
         packageListAdapter.setCallback(this);
         listView.setAdapter(packageListAdapter);
+        listView.setLayoutManager(new LinearLayoutManager(this));
         pkgList.clear();
         PackageManager pm = getPackageManager();
         List<PackageInfo> packages = pm.getInstalledPackages(PackageManager.GET_META_DATA);
