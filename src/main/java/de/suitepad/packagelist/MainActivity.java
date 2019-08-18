@@ -105,7 +105,6 @@ public class MainActivity extends AppCompatActivity implements PackageListCallba
             pkgList.add(new Pkg(packageInfo.packageName, packageInfo.packageName, packageInfo.versionName, packageInfo.versionCode));
         }
         packageListAdapter.notifyDataSetChanged();
-
     }
 
 
