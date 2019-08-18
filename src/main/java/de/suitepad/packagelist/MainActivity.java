@@ -30,12 +30,19 @@ import de.suitepad.packagelist.models.Pkg;
 
 public class MainActivity extends AppCompatActivity implements PackageListCallback{
     RecyclerView listView;
+    ArrayList<Pkg> pkgList;
+    PackageListAdapter packageListAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         listView = findViewById(R.id.package_list);
-
+        pkgList = new ArrayList<>();
+        packageListAdapter = new PackageListAdapter(this, pkgList);
+        packageListAdapter.setCallback(this);
+        listView.setAdapter(packageListAdapter);
+        listView.setLayoutManager(new LinearLayoutManager(this));
+        pkgList.clear();
         populatePackages();
     }
 
@@ -92,17 +99,13 @@ public class MainActivity extends AppCompatActivity implements PackageListCallba
     }
 
     public void populatePackages() {
-        ArrayList<Pkg> pkgList = new ArrayList<>();
-        PackageListAdapter packageListAdapter = new PackageListAdapter(this, pkgList);
-        packageListAdapter.setCallback(this);
-        listView.setAdapter(packageListAdapter);
-        listView.setLayoutManager(new LinearLayoutManager(this));
-        pkgList.clear();
         PackageManager pm = getPackageManager();
         List<PackageInfo> packages = pm.getInstalledPackages(PackageManager.GET_META_DATA);
         for (PackageInfo packageInfo : packages) {
             pkgList.add(new Pkg(packageInfo.packageName, packageInfo.packageName, packageInfo.versionName, packageInfo.versionCode));
         }
+        packageListAdapter.notifyDataSetChanged();
+
     }
 
 
